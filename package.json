@@ -1,0 +1,13 @@
+{
+  "name": "SinglepageAppExample",
+  "version": "0.0.1",
+  "description": "A simple singlepage app example that explores the interactions between NodeJS, Express, and Angular.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jermkeel/singlepage_example.git"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "jade": "1.x"
+  }
+}

@@ -1,0 +1,15 @@
+doctype html
+html(lang="en", ng-app="singlePageApp")
+  head
+    title Simple Singlepage
+    script(src="/components/angular/angular.min.js")
+    script(src="/components/angular-route/angular-route.min.js")
+    script(src="/components/jquery/dist/jquery.min.js")
+    link(rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.min.css")
+
+    script(src="/js/controller.js")
+    script(src="/js/ang-app.js")
+    link(rel="stylesheet" href="/css/style.css")
+
+  body
+    div(ng-view)
