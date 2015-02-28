@@ -8,9 +8,6 @@ app.config(["$routeProvider", function($routeProvider) {
     when("/", {
       templateUrl: "/html/partials/page1"
     }).
-    when("/page1", {
-      templateUrl: "/html/partials/page1"
-    }).
     when("/page2", {
       templateUrl: "/html/partials/page2"
     });
